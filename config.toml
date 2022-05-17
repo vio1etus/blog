@@ -1,4 +1,4 @@
-baseURL = "https://vio1etus.github.io"
+baseURL = "https://vio1etus.netlify.app/"
 languageCode = "zh-CN"
 title = "vio1etus 的博客"
 theme = "maupassant"
