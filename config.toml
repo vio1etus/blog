@@ -1,7 +1,7 @@
 baseURL = "https://vio1etus.github.io"
 languageCode = "zh-CN"
 title = "vio1etus 的博客"
-theme = "maupassant-hugo"
+theme = "maupassant"
 googleAnalytics = ""  # UA-XXXXXXXX-X/G-XXXXXXXXXX
 
 ## 保持分类的原始名字（false会做转小写处理）
