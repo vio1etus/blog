@@ -1,0 +1,8 @@
+{
+    "python.pythonPath": "/usr/bin/python",
+    "snippet.baseUrl": "https://cht.she",
+    "markdownShortcuts.bullets.marker": "-",
+    "markdownlint.config": {
+        "MD013": false
+    }
+}
