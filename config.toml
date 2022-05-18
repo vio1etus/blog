@@ -2,7 +2,7 @@ baseURL = "https://www.vio1etus.xyz/"
 languageCode = "zh-CN"
 title = "vio1etus 的博客"
 theme = "maupassant"
-googleAnalytics = ""  # UA-XXXXXXXX-X/G-XXXXXXXXXX
+googleAnalytics = "UA-145385042-1"  # UA-XXXXXXXX-X/G-XXXXXXXXXX
 
 ## 保持分类的原始名字（false会做转小写处理）
 preserveTaxonomyNames = true
@@ -12,7 +12,7 @@ disablePathToLower = true
 hasCJKLanguage = true
 summaryLength = 140
 
-disqusShortname = "yourdiscussshortname"  ## 是否开启disqus评论，不要和utteranc同时开启
+## disqusShortname = "yourdiscussshortname"  是否开启disqus评论，不要和utteranc同时开启
 
 [author]
   name = "vio1etus"
@@ -44,14 +44,14 @@ disqusShortname = "yourdiscussshortname"  ## 是否开启disqus评论，不要�
   url = "https://www.vio1etus.xyz/"
 
 [sitemap]
-  changefreq = 'monthly'
+  changefreq = 'daily'
   filename = 'sitemap.xml'
   priority = 0.5
 
 ## 配置 utteranc评论,教程参考 https://utteranc.es/
 [params.utteranc]
   enable = true
-  repo = "blog_comments" ##换成自己得
+  repo = "blog_comments" ##换成自己的
   issueTerm = "pathname"
   theme = "github-light"
 ## 配置 waline 评论系统,教程参考 https://waline.js.org/
