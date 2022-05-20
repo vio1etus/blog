@@ -3,11 +3,10 @@ title: Python Object Reference
 comments: true
 toc: true
 tags:
-    - variable
+    - python
 description: 本文通过介绍 Python 的内存管理、赋值与函数参数传递。对象可变性来深入解析：Python 的对象引用。
 categories:
-    - python
-    - basic
+    - programming
 date: 2020-03-21 10:39:54
 updated: 2020-07-21 16:01:54
 ---
@@ -372,9 +371,4 @@ World
 
 ## 参考推荐
 
-> [Assignment, Shallow Copy, Or Deep Copy?](https://towardsdatascience.com/assignment-shallow-or-deep-a-story-about-pythons-memory-management-b8fad87bfa6c)
-> [Pass by Object Reference in Python](https://secon.utulsa.edu/cs2123/slides/pypass.pdf)
-> [Python tuples: immutable but potentially changing](http://radar.oreilly.com/2014/10/python-tuples-immutable-but-potentially-changing.html)
-> [Python 的函数参数传递：传值？引用？](http://winterttr.me/2015/10/24/python-passing-arguments-as-value-or-reference/)
-> [6 Things to Understand Python Data Mutability](https://medium.com/swlh/6-things-to-understand-python-data-mutability-b52f5c5db191)
-> [copy — Shallow and deep copy operations](https://docs.python.org/3/library/copy.html)
+> [Assignment, Shallow Copy, Or Deep Copy?](https://towardsdatascience.com/assignment-shallow-or-deep-a-story-about-pythons-memory-management-b8fad87bfa6c) > [Pass by Object Reference in Python](https://secon.utulsa.edu/cs2123/slides/pypass.pdf) > [Python tuples: immutable but potentially changing](http://radar.oreilly.com/2014/10/python-tuples-immutable-but-potentially-changing.html) > [Python 的函数参数传递：传值？引用？](http://winterttr.me/2015/10/24/python-passing-arguments-as-value-or-reference/) > [6 Things to Understand Python Data Mutability](https://medium.com/swlh/6-things-to-understand-python-data-mutability-b52f5c5db191) > [copy — Shallow and deep copy operations](https://docs.python.org/3/library/copy.html)

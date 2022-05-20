@@ -4,11 +4,9 @@ comments: true
 tags:
     - ml
     - python
-    - pandas
-    - basic
 description: 本文主要入门学习 Pandas 的基本数据结构及其创建与csv文件数据读取
 categories:
-    - python
+    - programming
 date: 2022-05-18 21:33:29
 ---
 

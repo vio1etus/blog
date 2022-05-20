@@ -1,10 +1,11 @@
 ---
 title: shell input 4096-limit
 comments: true
-toc: true
+tags:
+    - shell
 description: 学习并记录一下 shell 命令行输入的大小限制
 categories:
-    - issues
+    - programming
 date: 2020-07-23 19:11:25
 ---
 

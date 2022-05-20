@@ -3,12 +3,10 @@ title: Python root 用户报错 ModuleNotFoundError
 comments: true
 toc: true
 tags:
-  - python
-  - ModuleNotFoundError
+    - python
 description: Python 有一些模块或函数，只能在这里 root 权限下才能运行，但是，root 用户（sudo）运行，却报错 ModuleNotFoundError:No module named 'xxx'
 categories:
-  - python
-  - issues
+    - programming
 date: 2020-07-21 16:01:54
 ---
 
@@ -16,11 +14,11 @@ date: 2020-07-21 16:01:54
 
 ## 问题
 
-今天在学习 scapy 模块进行了 IP 欺骗的时候，我发现它必须在这里 root  权限下运行，否则报错  `PermissionError: [Errno 1] Operation not permitted`，但是 root 下用户还报错：
+今天在学习 scapy 模块进行了 IP 欺骗的时候，我发现它必须在这里 root 权限下运行，否则报错 `PermissionError: [Errno 1] Operation not permitted`，但是 root 下用户还报错：
 
 ```python
 $ sudo python spoofing.py
-[sudo] password for violetv: 
+[sudo] password for violetv:
 Traceback (most recent call last):
   File "spoofing.py", line 3, in <module>
     from scapy.all import *
@@ -40,12 +38,14 @@ ModuleNotFoundError: No module named 'scapy'
 通过了 `man sudo` 可得：
 
 > -E, --preserve-env
+
         Indicates to the security policy that the user wishes to
         preserve their existing environment variables.  The secu‐
         rity policy may return an error if the user does not have
         permission to preserve the environment.
->
+
 > --preserve-env=list
+
         Indicates to the security policy that the user wishes to
         add the comma-separated list of environment variables to
         those preserved from the user's environment.  The security
@@ -55,6 +55,4 @@ ModuleNotFoundError: No module named 'scapy'
 
 ## 参考资料
 
-> [Cannot run Python script using sudo](https://stackoverflow.com/questions/50315645/cannot-run-python-script-using-sudo)
-[PYTHONPATH not working for sudo on GNU/Linux (works for root)](https://stackoverflow.com/questions/7969540/pythonpath-not-working-for-sudo-on-gnu-linux-works-for-root)
-[Python 之 新手安装详解 、安装目录说明 及 修改pip默认包安装位置](https://blog.csdn.net/ZCShouCSDN/article/details/84990674)
+> [Cannot run Python script using sudo](https://stackoverflow.com/questions/50315645/cannot-run-python-script-using-sudo) > [PYTHONPATH not working for sudo on GNU/Linux (works for root)](https://stackoverflow.com/questions/7969540/pythonpath-not-working-for-sudo-on-gnu-linux-works-for-root) > [Python 之 新手安装详解 、安装目录说明 及 修改 pip 默认包安装位置](https://blog.csdn.net/ZCShouCSDN/article/details/84990674)

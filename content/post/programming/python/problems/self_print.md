@@ -4,10 +4,10 @@ comments: true
 toc: true
 tags:
     - fun
+    - python
 description: 自己实现了 python 的 print 函数，仅供练习与玩耍。
 categories:
-    - python
-    - problems
+    - programming
 date: 2020-07-21 16:01:54
 ---
 

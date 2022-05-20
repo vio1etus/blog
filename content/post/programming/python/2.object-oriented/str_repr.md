@@ -4,11 +4,9 @@ comments: true
 toc: true
 tags:
     - python
-    - str
 description: 本文主要学习记录了四个知识点：str，repr 函数与类方法及其区别以及格式化输出二者的 `!r` 与 `!s`
 categories:
-    - python
-    - object-oriented
+    - programming
 date: 2020-07-22 22:16:58
 ---
 

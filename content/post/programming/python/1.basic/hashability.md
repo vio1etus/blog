@@ -3,10 +3,10 @@ title: Hashability in Python
 comments: true
 toc: true
 tags:
-    - hashability
+    - python
 description: Python 对象的 hashable 和 unhashable
 categories:
-    - python
+    - programming
     - intermediate
 date: 2020-03-21 10:39:54
 updated: 2020-07-21 16:01:54
@@ -168,7 +168,4 @@ __eq__ is called
 
 ## 参考资料
 
-> [What are Hashable Objects](https://www.pythonforthelab.com/blog/what-are-hashable-objects/)
-> [What the difference between hash-able and immutable](https://stackoverflow.com/questions/56154702/what-the-difference-between-hash-able-and-immutable)
-> [3 Essential Questions About Hashable in Python](https://medium.com/better-programming/3-essential-questions-about-hashable-in-python-33e981042bcb)
-> [Python Glossary](https://docs.python.org/3/glossary.html)
+> [What are Hashable Objects](https://www.pythonforthelab.com/blog/what-are-hashable-objects/) > [What the difference between hash-able and immutable](https://stackoverflow.com/questions/56154702/what-the-difference-between-hash-able-and-immutable) > [3 Essential Questions About Hashable in Python](https://medium.com/better-programming/3-essential-questions-about-hashable-in-python-33e981042bcb) > [Python Glossary](https://docs.python.org/3/glossary.html)

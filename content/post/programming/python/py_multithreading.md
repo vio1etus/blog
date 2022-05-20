@@ -3,14 +3,12 @@ title: Python多线程基础
 comments: true
 toc: true
 tags:
-  - 多线程
-  - 线程锁
+    - python
 description: 本文主要介绍多线程的基础内容，并记录使用互斥锁解决多线程共享导致资源竞争问题，并介绍锁加多了容易引起的死锁问题
 categories:
-  - python
+    - programming
 date: 2019-08-30 13:16:25
 ---
-
 
 # 原理
 
@@ -18,7 +16,7 @@ date: 2019-08-30 13:16:25
 
 并行是真正的多任务一起执行，一个任务占用一个 CPU 核、CPU 的核心数大于等于任务数。
 
-并发；是假的多任务 ，采用时间片轮转（一个时间片里面每个进程轮流运行一段时间。）和优先级调度（音视频等优先级较高）  
+并发；是假的多任务 ，采用时间片轮转（一个时间片里面每个进程轮流运行一段时间。）和优先级调度（音视频等优先级较高）
 
 CPU 的核心数小于任务数
 
@@ -36,8 +34,6 @@ CPU 的核心数小于任务数
 
 > 这是目前最主流的获取线程数据的方法。使用 Queue 库创建队列实例，用来储存和传递线程间的数据。Python 的队列是线程安全的，也就是说多个线程同时访问一个队列也不会有冲突。Python 队列有三种 FIFO 先进先出，FILO 先进后出（类似栈），优先级队列（由单独的优先级参数决定顺序）。使用队列可以实现简单 生产者 – 消费者 模型
 
-
-
 ## threading 模块
 
 Python 的 threading 模块是比较底层的模块，threading 模块中有一个类叫做 Thread。
@@ -48,15 +44,15 @@ Python 的 threading 模块是比较底层的模块，threading 模块中有一�
 
 ### 函数
 
-``` python
+```python
 def func():  # 这是一个函数
 
-t1 = treading.Thread(target=func)	
+t1 = treading.Thread(target=func)
 
 t1.start()
 ```
 
-Thread 类创建一个对象（注：该类对象要传入一个 target  参数，写 函数引用，即：函数名。，然后 t1调用它的 start 方法，来执行创建一个线程执行之前的target 传入的函数 func。当创建 Thread 时执行的函数（target 传入的函数引用）运行结束，那么意味着这个子线程结束了。
+Thread 类创建一个对象（注：该类对象要传入一个 target 参数，写 函数引用，即：函数名。，然后 t1 调用它的 start 方法，来执行创建一个线程执行之前的 target 传入的函数 func。当创建 Thread 时执行的函数（target 传入的函数引用）运行结束，那么意味着这个子线程结束了。
 
 主线程结束，程序才会结束。如果主线程不小心先结束了，那子线程也随之结束（即：主线程结束了，子线程会随之结束）。一个子线程在运行时会有一些自己的东西，主线程最后结束，便负责帮他们回收处理。
 
@@ -68,7 +64,7 @@ Thread 类创建一个对象（注：该类对象要传入一个 target  参数�
 
 主线程执行完该执行的代码后，没有其他代码要执行时，会等待子线程结束之后再结束。
 
-注：多线程中每个线程的执行顺序是不确定的。我们无法控制线程被调用的顺序，但可以通过别的方式（比如：time.sleep()）来影响线程调度的方式。 
+注：多线程中每个线程的执行顺序是不确定的。我们无法控制线程被调用的顺序，但可以通过别的方式（比如：time.sleep()）来影响线程调度的方式。
 
 ### 类
 
@@ -97,21 +93,21 @@ if __name__ == '__main__':
 
 适合于一个线程中做的事情比较复杂，而且我分成了多个函数去做。
 
-你可以在 run 方法中调用 self.login()、self.register() 等方法来使用类中的login 和 register 方法。
+你可以在 run 方法中调用 self.login()、self.register() 等方法来使用类中的 login 和 register 方法。
 
 # 常用函数
 
-treading模块中常用函数有以下几个：
+treading 模块中常用函数有以下几个：
 
 首先，我们看一下：
 
 > Note: While they are not listed below, the `camelCase` names used for some methods and functions in this module in the Python 2.x series are still supported by this module.
 
-官方写到 Python 2.x 中驼峰式写法的函数仍被支持，即：Python 2.x 中函数为 currentThread 这样，Python 3.x 又来了一种，为 current_thread 这样。既然现在都 Python 3.7 了，我们还是用下划线的新版吧。（说着一点，还有一个意思，就是看到 currentThread  这样写的函数代码啥的要认识。）
+官方写到 Python 2.x 中驼峰式写法的函数仍被支持，即：Python 2.x 中函数为 currentThread 这样，Python 3.x 又来了一种，为 current_thread 这样。既然现在都 Python 3.7 了，我们还是用下划线的新版吧。（说着一点，还有一个意思，就是看到 currentThread 这样写的函数代码啥的要认识。）
 
 ## current_thread
 
-**threading.current_thread()** 
+**threading.current_thread()**
 返回调用当前代码的 Thread 对象。如果调用者控制的线程不是通过 threading 模块创建的，则返回一个只有有限功能的虚假线程对象。
 
 ## main_thread
@@ -122,16 +118,16 @@ treading模块中常用函数有以下几个：
 
 ## active_count
 
-**threading.active_count()** 
+**threading.active_count()**
 返回当前活着的**Thread**对象的个数。返回的数目等于**enumerate()**返回的列表的长度（所以就不用麻烦的使用 len(threading.enumerate()) 了）
 
 ## enumerate
 
-**threading.enumerate()** 
+**threading.enumerate()**
 
-返回当前活着的 Thread 对象的列表。该列表包括守护线程、由current_thread()创建的虚假线程对象和主线程。它不包括终止的线程和还没有开始的线程。
+返回当前活着的 Thread 对象的列表。该列表包括守护线程、由 current_thread()创建的虚假线程对象和主线程。它不包括终止的线程和还没有开始的线程。
 
-threading 模块中有一个enumerate()，它的返回值是一个列表，这个列表中拥有当前程序运行起来之后它创建的所有线程（包括其主线程。）
+threading 模块中有一个 enumerate()，它的返回值是一个列表，这个列表中拥有当前程序运行起来之后它创建的所有线程（包括其主线程。）
 
 enumerate()
 
@@ -183,7 +179,7 @@ def main():
 	time.sleep(1)
 	t2.start()
 	time.sleep(1)
-	
+
 	print(threading.enumerate())
 
 
@@ -191,7 +187,7 @@ if __name__ == '__main__':
 	main()
 ```
 
-这里通过让主线程sleep 一秒钟来达到使 t1.start 开启的线程先执行完，然后 t2.start 开启的线程再执行完，最后再执行 print 线程数目的目的。我们可以通过调整增减 time.sleep() 在 t1.start() 、t2.start() 以及他们执行的函数中的位置来调整打印线程。
+这里通过让主线程 sleep 一秒钟来达到使 t1.start 开启的线程先执行完，然后 t2.start 开启的线程再执行完，最后再执行 print 线程数目的目的。我们可以通过调整增减 time.sleep() 在 t1.start() 、t2.start() 以及他们执行的函数中的位置来调整打印线程。
 
 通过以下测试我们也可以知道，线程创建是在 t1.start() 的时候。
 
@@ -205,24 +201,24 @@ if __name__ == '__main__':
 ----1----
 ```
 
-我们可以使用 len 函数 通过判断  threading.enumerate() 的长度个数来判断是否子线程是否结束。
+我们可以使用 len 函数 通过判断 threading.enumerate() 的长度个数来判断是否子线程是否结束。
 
 # 常用方法
 
-Thread类中常用方法：
+Thread 类中常用方法：
 
 ## Thread()
 
-> `Thread`(*group=None*, *target=None*, *name=None*, *args=()*, *kwargs={}*, ***, *daemon=None*)
+> `Thread`(_group=None_, _target=None_, _name=None_, _args=()_, _kwargs={}_, *\*\*, *daemon=None\*)
 
 常用到的参数：
-*target* ：run() 方法调用的对象，即该线程做的事情，一般我们就写一个函数名
+_target_ ：run() 方法调用的对象，即该线程做的事情，一般我们就写一个函数名
 
-*name* : 线程的名字，默认情况下，会自动构造一个 “Thread-N” 格式（其中 N 是一个小的十进制数）的唯一的名字。
+_name_ : 线程的名字，默认情况下，会自动构造一个 “Thread-N” 格式（其中 N 是一个小的十进制数）的唯一的名字。
 
-*args* : 一个参数**元组**，用来向 target 参数的对象传递参数
+_args_ : 一个参数**元组**，用来向 target 参数的对象传递参数
 
-## run(): 
+## run():
 
 用以表示线程活动的方法，当线程的 run() 方法结束时，该线程结束。
 
@@ -431,4 +427,3 @@ mutex.release()
 [官方手册](https://docs.python.org/3/library/threading.html)
 
 [python-note](https://github.com/lhchen74/python-note)
-

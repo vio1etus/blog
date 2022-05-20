@@ -2,11 +2,11 @@
 title: String Tokenization
 comments: true
 toc: true
-tags:
-    - tokenization
 description: 本文就先介绍了解一下 Tokenization 的概念，自己暂时没有深入了解的需求。
-categories:
+tags:
     - python
+categories:
+    - programming
 date: 2020-07-23 14:16:23
 ---
 

@@ -3,10 +3,11 @@ title: Requests 基础
 comments: true
 toc: true
 description: 本文简要介绍 Python 的 Requests 模块的使用
-categories:
-  - python
-date: 2019-10-05 16:21:29
 tags:
+    - python
+categories:
+    - programming
+date: 2019-10-05 16:21:29
 ---
 
 # Requests 入门
@@ -21,18 +22,18 @@ tags:
 
 3. Requests 简单易用
 
-4. Requests 能够自动帮助我们解压（gzip压缩的等）网页内容
+4. Requests 能够自动帮助我们解压（gzip 压缩的等）网页内容
 
 # 安装模块
 
 1. 使用 pip install
 
-   pip --version	查看当前 pip 是 Python 2 的，还是 Python 3 的
+    pip --version 查看当前 pip 是 Python 2 的，还是 Python 3 的
 
-   注：直接输入工具名回车，一般都是帮助信息
+    注：直接输入工具名回车，一般都是帮助信息
 
 2. 下载压缩包，解压，使用 Python 运行 setup.py
-3. 
+3.
 
 HTTP 请求方法：
 
@@ -55,35 +56,34 @@ response = requests.post('https://www.baidu.com')
 
 ## response.text
 
-- 类型：str
+-   类型：str
 
-- 解码类型：根据 HTTP 头部对响应的编码作出有根据的推测，推测的文本编码
-  
-- 如何修改编码方式：response.encoding=”gbk”
-- Requests 会自动对响应正文进行解码：如果 Response.encoding 为空，那么 requests 根据 header 来确定响应的编码方式，然后进行解码。如果你可以确定响应的编码方式，也可以先对Response.encoding进行设置，然后再通过Response.text获取响应正文。
+-   解码类型：根据 HTTP 头部对响应的编码作出有根据的推测，推测的文本编码
+-   如何修改编码方式：response.encoding=”gbk”
+-   Requests 会自动对响应正文进行解码：如果 Response.encoding 为空，那么 requests 根据 header 来确定响应的编码方式，然后进行解码。如果你可以确定响应的编码方式，也可以先对 Response.encoding 进行设置，然后再通过 Response.text 获取响应正文。
 
 ## response.content
 
-- 类型：bytes
+-   类型：bytes
 
-- 解码类型：没有指定
+-   解码类型：没有指定
 
-- 如何修改编码方式：response.content.deocde（“utf8"）
+-   如何修改编码方式：response.content.deocde（“utf8"）
 
-- 如果你想取文本，可以通过 r.text。 如果想取图片，文件，则可以通过 r.content。
-  （ resp.json() 返回的是 json 格式数据）
+-   如果你想取文本，可以通过 r.text。 如果想取图片，文件，则可以通过 r.content。
+    （ resp.json() 返回的是 json 格式数据）
 
-  当然，由于二进制是最原始的数据，我们方便对他进行任意操作，于是常用且推荐使用: **response.content.decode()**
+    当然，由于二进制是最原始的数据，我们方便对他进行任意操作，于是常用且推荐使用: **response.content.decode()**
 
 **requests 中解决编解码问题：**
 
-- response.content.decode()   默认使用 utf8
-- response.content.decode('gbk')
-- response.text
+-   response.content.decode() 默认使用 utf8
+-   response.content.decode('gbk')
+-   response.text
 
 ## response.status_code 状态码
 
-当状态码为 200 时，只能说请求某个 URL 成功了，但是不一定是我们传入的参数 URL地址。
+当状态码为 200 时，只能说请求某个 URL 成功了，但是不一定是我们传入的参数 URL 地址。
 
 比如：我们现在请求一个登陆之后才能访问的页面，服务器会将我们重定向到登录页面，而我们成功访问登录页面，于是返回 200.
 
@@ -99,7 +99,7 @@ response = requests.post('https://www.baidu.com')
 
 响应头，一般只关注 Set-Cookie 字段
 
-当我们关注网站如何设置 cookie 的时候，不应该只管响应头的  Set-Cookie 字段，因为也可以通过 JS 设置 cookie 到本地，所以也要关注一下 JS。
+当我们关注网站如何设置 cookie 的时候，不应该只管响应头的 Set-Cookie 字段，因为也可以通过 JS 设置 cookie 到本地，所以也要关注一下 JS。
 
 response.request 中有着关于请求报文的信息，可以通过对应的方法获得。
 
@@ -120,7 +120,7 @@ url = 'https://www.baidu.com'
 response = requests.get(url, headers=headers)
 ```
 
-此处，我们发送带 header 请求是为了模拟浏览器，防止被识别为爬虫。如果有一天我们单单带上 UA，还是会被识别为爬虫，那么我们就要考虑带上 headers 中别的字段值了。如果还不行，我们可以考虑 带上 cookie 
+此处，我们发送带 header 请求是为了模拟浏览器，防止被识别为爬虫。如果有一天我们单单带上 UA，还是会被识别为爬虫，那么我们就要考虑带上 headers 中别的字段值了。如果还不行，我们可以考虑 带上 cookie
 
 ## 发送带参数的请求
 
@@ -138,60 +138,60 @@ https://www.google.com/search?q=python
 
 1. requests 提供的方式
 
-   比如：https://xxx.com/search.php?key=Python&time=2018
+    比如：https://xxx.com/search.php?key=Python&time=2018
 
-   url = 'https://xxx.com/search.php'  # 注意：带不带问号均可，requests 会判断有无问号，然后帮我们调整，使其有一个问号。
+    url = 'https://xxx.com/search.php' # 注意：带不带问号均可，requests 会判断有无问号，然后帮我们调整，使其有一个问号。
 
-   keyword=｛‘key’:'Python', 'time':2018｝
+    keyword=｛‘key’:'Python', 'time':2018｝
 
-   requests.get(url, params=keyword)
+    requests.get(url, params=keyword)
 
 2. 拼接字符串
 
-   [字符串格式化](https://zhuanlan.zhihu.com/p/37936007)
+    [字符串格式化](https://zhuanlan.zhihu.com/p/37936007)
 
-   3.6 及以上建议使用：f -string，采用直接在字符串中内嵌变量的方式进行字符串格式化操作
+    3.6 及以上建议使用：f -string，采用直接在字符串中内嵌变量的方式进行字符串格式化操作
 
-   ```python
-   param1 = 'Python'
-   param2 = 2018
-   url =f"https://xxx.com/search.php?key={param1}&time={param2}"
-   requests.get(url)
-   ```
+    ```python
+    param1 = 'Python'
+    param2 = 2018
+    url =f"https://xxx.com/search.php?key={param1}&time={param2}"
+    requests.get(url)
+    ```
 
-   当然，老式的方法我们也要能看懂：
+    当然，老式的方法我们也要能看懂：
 
-   ```pyhton
-   url  ="https://xxx.com/search.php?key={}&time={}".format(param1，param2)
-   url  ="https://xxx.com/search.php?key=%s&time=%d" % (param1, param2)
-   ```
+    ```pyhton
+    url  ="https://xxx.com/search.php?key={}&time={}".format(param1，param2)
+    url  ="https://xxx.com/search.php?key=%s&time=%d" % (param1, param2)
+    ```
 
-   **注意：编码问题**
+    **注意：编码问题**
 
-   **如果使用 w 模式打开文件写入报错，那在打开文件时，添加 encoding 字段**
+    **如果使用 w 模式打开文件写入报错，那在打开文件时，添加 encoding 字段**
 
-   使用 ‘wb’ 模式打开文件写入没有问题
+    使用 ‘wb’ 模式打开文件写入没有问题
 
-   ```pyhton
-   f = open('liyiba-'+str(i+1)+'.html','w',encoding='utf-8')
-      f.write(response.content.decode())
-   或
-   with open(file_path, 'w', encoding='utf-8') as f:
-   ```
+    ```pyhton
+    f = open('liyiba-'+str(i+1)+'.html','w',encoding='utf-8')
+       f.write(response.content.decode())
+    或
+    with open(file_path, 'w', encoding='utf-8') as f:
+    ```
 
-   类的每个方法的第一个参数为指向实例的引用。在类的方法中使用类的成员或方法也要在前面加上 self.
+    类的每个方法的第一个参数为指向实例的引用。在类的方法中使用类的成员或方法也要在前面加上 self.
 
 ## Post 请求
 
 哪些地方我们会用到 POST 请求：
 
-- 登录注册（POST比GET更安全）
-- 需要传输大文本内容的时候（POST 请求对数据长度没有要求）
-      所以同样的，我们的爬虫也需要在这两个地方去模拟浏览器发送 post 请求
+-   登录注册（POST 比 GET 更安全）
+-   需要传输大文本内容的时候（POST 请求对数据长度没有要求）
+    所以同样的，我们的爬虫也需要在这两个地方去模拟浏览器发送 post 请求
 
-发送POST请求用法：
+发送 POST 请求用法：
 
-`````` Python
+````Python
 response=requests.post("http://www.baidu.com/", data=data, headers=headers)
 ```
 
@@ -304,7 +304,7 @@ AttributeError: 'NoneType' object has no attribute 'sock'
 
 **不需要 cookie 的时候尽量不去使用 cookie**， 但是为了**获取登录之后的页面**，我们必须发送带有 cookies 的请求。
 
-####1. 携带 cookie 请求 
+####1. 携带 cookie 请求
 
 - 携带一堆 cookie 进行请求，把 cookie 组成 cookie 池
 
@@ -355,7 +355,7 @@ with open('1.html', 'w') as f:
 
 ###获取登录后的页面的三种方式
 
-1. 实例化 session，使用 session 发送 post 请求，在使用它，获取登陆后的页面 
+1. 实例化 session，使用 session 发送 post 请求，在使用它，获取登陆后的页面
 2. 在 headers 中添加 cookie 键，值为 cookie 字符串
 3. 在请求方法中添加 cookies 参数，接收字典形式的 cookie。字典形式的 cookie 中的键是 cookie 的 name，值是 cookie 的 value
 
@@ -373,3 +373,4 @@ cookies = {i.split('=')[0].lstrip():i.split('=')[1] for i in cookies.split(';')}
 ```
 
 注意：字典和集合都是无序的
+````

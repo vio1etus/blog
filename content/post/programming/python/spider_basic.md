@@ -2,38 +2,38 @@
 title: 爬虫基础
 comments: true
 toc: true
-tags:
-  - 爬虫
 description: 本文总结一些爬虫的预备知识，以便后续爬虫的学习
+tags:
+    - python
 categories:
-  - python
+    - programming
 date: 2019-09-15 22:16:23
 ---
 
 ## HTTP 常见请求头
 
-- Host（主机和端口号）
+-   Host（主机和端口号）
 
-- Connection（链接类型）
+-   Connection（链接类型）
 
-- Upgrade-Insecure-Requests（值为 1 ，则升级为HTTPS请求）
+-   Upgrade-Insecure-Requests（值为 1 ，则升级为 HTTPS 请求）
 
-- **User-Agent（浏览器名称）**
+-   **User-Agent（浏览器名称）**
 
-- Accept（传输文件类型）
+-   Accept（传输文件类型）
 
-- Referer（页面跳转处）
+-   Referer（页面跳转处）
 
-- Accept-Encoding（文件编解码格式）
+-   Accept-Encoding（文件编解码格式）
 
-- **Cookie （Cookie）**
+-   **Cookie （Cookie）**
 
-- X-requested-with: XMLHttpRequest（是Ajax异步请求）
+-   X-requested-with: XMLHttpRequest（是 Ajax 异步请求）
 
-- X-forward-for: ip0 ip1 ip2 表示 HTTP 请求端真实 IP 为 ip0**
+-   X-forward-for: ip0 ip1 ip2 表示 HTTP 请求端真实 IP 为 ip0\*\*
 
-- Remote Address: 最终请求服务器地址
-- Aceept：多种类型，每一种/几种类型后面的 q 是权重的意思，权重大，优先级高
+-   Remote Address: 最终请求服务器地址
+-   Aceept：多种类型，每一种/几种类型后面的 q 是权重的意思，权重大，优先级高
 
 requests 模块在 Python 2 和 Python 3 中都是一样的，因此不用担心。
 
@@ -42,7 +42,7 @@ requests 模块在 Python 2 和 Python 3 中都是一样的，因此不用担心
 1. 可以在 chrome 的开发者工具中，更改为各种手机的 UA。有时候电脑版的网页的一些地址、post 数据发向的 URL 不好找或加密繁杂有时间戳等，可以切换到手机版看看，往往有惊喜哦。
 2. 可以通过切换 UA 来降低被识别为爬虫的几率
 
-## Cookie 与 Seesion 
+## Cookie 与 Seesion
 
 cookie 保存在浏览器本地，用户/本地可以修改其内容。因为它是保存在本地的，所以它的大小是有上限的
 
@@ -54,7 +54,7 @@ Python 3 中字符串分为以下两种类型：str 类型和 bytes 类型
 
 bytes 类型：**二进制**
 
-- 互联网上的数据都是以二进制的方式来传输的
+-   互联网上的数据都是以二进制的方式来传输的
 
 str 类型：unicode 的呈现形式
 
@@ -62,9 +62,9 @@ str 类型：unicode 的呈现形式
 
 ## 字符编码简单回顾
 
-**Unicode UTF8 ASCII的补充**
-字符集包括：ASCI字符集、GB2312字符集、GB18030字符集、Unicode字符集等
-ASCll编码是1个字节，而 Unicode 编码**通常**是2个字节。
+**Unicode UTF8 ASCII 的补充**
+字符集包括：ASCI 字符集、GB2312 字符集、GB18030 字符集、Unicode 字符集等
+ASCll 编码是 1 个字节，而 Unicode 编码**通常**是 2 个字节。
 UTF-8 是 Unicode 的实现方式之一，UTF-8 是它是一种变长的编码方式，可以是 1，2，3 个
 字节
 
@@ -99,9 +99,9 @@ UTF-8 是 Unicode 的实现方式之一，UTF-8 是它是一种变长的编码�
 
 ### robots 协议
 
-robots协议并不是一个规范，而只是约定俗成的，所以并不能保证网站的隐私。
+robots 协议并不是一个规范，而只是约定俗成的，所以并不能保证网站的隐私。
 
-robots协议也叫robots.txt（统一小写）是一种存放于网站根目录下的ASCII编码的文本文件，它通常告诉网络搜索引擎的爬虫，此网站中的哪些内容是不应被搜索引擎的爬虫获取的，哪些是可以被爬虫获取的。
+robots 协议也叫 robots.txt（统一小写）是一种存放于网站根目录下的 ASCII 编码的文本文件，它通常告诉网络搜索引擎的爬虫，此网站中的哪些内容是不应被搜索引擎的爬虫获取的，哪些是可以被爬虫获取的。
 
 # 聚焦爬虫
 
@@ -109,19 +109,17 @@ URL List ----> 响应内容（根据响应内容提取 URL ，放入 URL List �
 
 在相应内容中提取 URL， 可以使用
 
-- 下一页处获取 URL，直到没有下一页
+-   下一页处获取 URL，直到没有下一页
 
-- 详情处提取 URL
+-   详情处提取 URL
 
 学习规划：
 
 基础知识 ----> requests 使用 ----> 数据提取方法 ----> 动态网页提取数据 ----> scrapy ----> scrapy redis
 
-
-
 **浏览器渲染出来的页面和爬虫请求的页面并不一样的。**
 
-爬虫请求的只有 HTML，而浏览器会根据 html 中的 js，图片等地址，请求图片，css等，同时 js 还会动态改变页面，最终渲染出页面。
+爬虫请求的只有 HTML，而浏览器会根据 html 中的 js，图片等地址，请求图片，css 等，同时 js 还会动态改变页面，最终渲染出页面。
 
 Chrome 中的 Elements 与 Network 中的 Repsonse
 
@@ -130,8 +128,3 @@ network 中的 response 只是纯的 HTML，而 Elements 是包含 CSS, JS, 图�
 我们在后续爬虫时，要以当前 URL 地址对应的响应 response 为准，如果有一天我们根据当前 URL 地址对应的响应，拿不到数据，那可能在其他 URL 的响应里面或者是通过 JS 生成的。
 
 爬虫的时候我们要确定 URL 中的参数哪些是有用的，哪些是没用的，有用的参数会不会变，如果变，那其规律是什么
-
-
-
-
-

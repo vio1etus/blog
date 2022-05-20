@@ -3,10 +3,10 @@ title: Python 命名规范
 comments: true
 toc: true
 tags:
-    - naming conventions
+    - python
 description: 本文主要记录 Python 命名规范，以便自己在项目开发与合作过程中，写出规范 Python 的代码。
 categories:
-    - python
+    - programming
 date: 2019-07-25 15:18:25
 ---
 
