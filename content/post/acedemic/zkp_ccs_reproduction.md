@@ -1,5 +1,5 @@
 ---
-title: ZKDT 和 ZKCNN 论文复现
+title: ZKDT 和 zkCNN 论文复现
 comments: true
 toc: true
 tags:
