@@ -51,7 +51,7 @@ summaryLength = 140
 ## 配置 utteranc评论,教程参考 https://utteranc.es/
 [params.utteranc]
   enable = true
-  repo = "blog_comments" ##换成自己的
+  repo = "vio1etus/blog_comments" ##换成自己的
   issueTerm = "pathname"
   theme = "github-light"
 ## 配置 waline 评论系统,教程参考 https://waline.js.org/
