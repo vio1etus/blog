@@ -20,19 +20,5 @@ Stage 2：2020/12/17 后再未更新，期间通过 Typora、MWeb 写笔记，�
 
 ## 联系我
 
-<html>
-<ul>
-	<li>
-       <div style="padding-top:7px;padding-bottom:7px;padding-left:5px;text-align:left;">
-       <i class="fa fa-envelope" aria-hidden="true"></i>
-       <a href="mailto:615836359@qq.com">Email</a>
-       </div>
-	 </li> 
-	 <li>
-        <div style="padding-top:7px;padding-bottom:7px;padding-left:5px;text-align:left;">
-        <i class="fa fa-github" aria-hidden="true"></i>
-        <a href="https://github.com/violetu">GitHub</a>
-        </div>
-	 </li>
-</ul>
-<html>
+Email: 615836359@qq.com
+Github: https://github.com/vio1etus
