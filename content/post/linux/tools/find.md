@@ -7,8 +7,7 @@ tags:
 description: find 命令学习与使用
 categories:
     - linux
-    - tools
-date: 2020-08-1 10:11:25
+date: 2020-08-10 10:11:25
 ---
 
 ## 命令格式
