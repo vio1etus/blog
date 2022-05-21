@@ -185,7 +185,7 @@ Out[20]:
 
 通过 ndarray 创建与通过字典创建的 DataFrame 不同之处：
 
-1. 字典每个键值对应的列表/Series 是一列，而 ndaaray 二维数组，每个数组是一行。
+1. 字典每个键值对应的列表/Series 是一列，而 **ndaaray 二维数组，每个数组是一行，整个 DataFrame 和二维 ndarray 结构一致。**。
 2. 通过字典创建的 DataFrame 具有 column labels，不需要手动赋予，而 numpy 的 ndarray 便是 index /row labels 和 column labels 自动生成，因此均可以通过 `index` 赋予索引/row labels，也可以通过`columns` 赋予 column labels。
 
 ```python3
