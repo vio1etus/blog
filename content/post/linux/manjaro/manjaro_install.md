@@ -3,12 +3,10 @@ title: UEFI+GPT win+manjaro 双系统安装
 comments: true
 toc: true
 tags:
-    - configuration
     - manjaro
 description: 本文在虚拟机下完成 Windows+Manjaro 双系统的安装，与本人的实体双系统安装步骤无太大差异（多了些虚拟机的设置等）。仅仅作为个人回忆/重装的笔记使用。
 categories:
     - linux
-    - manjaro
 date: 2020-09-29 10:11:25
 ---
 

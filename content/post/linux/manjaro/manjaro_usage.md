@@ -7,7 +7,6 @@ tags:
 description: 记录 Manjaro KDE 中一些软件的使用技巧
 categories:
     - linux
-    - manjaro
 date: 2020-08-07 21:11:25
 ---
 

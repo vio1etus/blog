@@ -3,12 +3,10 @@ title: fcitx5、输入法、词库安装配置
 comments: true
 toc: true
 tags:
-    - configuration
     - manjaro
 description: fcitx5 框架，pinyin 输入法、rime 输入法，肥猫的维基百万词库以及fcitx5-rime 配置
 categories:
     - linux
-    - manjaro
 date: 2020-08-07 20:11:25
 ---
 

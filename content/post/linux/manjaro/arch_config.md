@@ -1,4 +1,14 @@
-# arch 配置
+---
+title: arch 配置
+comments: true
+toc: true
+tags:
+    - arch
+description: fcitx5 框架，pinyin 输入法、rime 输入法，肥猫的维基百万词库以及fcitx5-rime 配置
+categories:
+    - linux
+date: 2020-08-07 20:11:25
+---
 
 ## 剪切板
 

@@ -3,12 +3,10 @@ title: Manjaro 系统配置
 comments: true
 toc: true
 tags:
-    - configuration
     - manjaro
 description: 本文主要记录 manjaro 系统的配置操作以及一些常用软件，一方面为自己以后重装参考（我可不想再重装了，哈哈），一方面也希望能他人提供一点指导与帮助。
 categories:
     - linux
-    - manjaro
 date: 2020-07-23 14:11:25
 updated: 2020-08-07 21:11:25
 ---
