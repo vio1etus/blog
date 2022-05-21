@@ -210,6 +210,16 @@ b  4  5  6
 c  7  8  9
 ```
 
+## viewnig Data
+
+-   `df.head(5)`：默认返回前五行
+-   `df.tail(5)`：默认返回后五行
+-   `df.index`：返回该 DataFrame 的索引
+-   `df.columns`：返回该 DataFrame 的列
+-   `df.T`：返回该 DataFrame 的转置
+-   `df.to_numpy()`：返回该 DataFrame 的矩阵表示
+-   `df.describe()`： 返回该 DataFrame 的描述与统计信息
+
 ## 参考
 
 1. [pandas.DataFrame — pandas 1.4.2 documentation](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html)
