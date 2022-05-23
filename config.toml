@@ -75,9 +75,9 @@ summaryLength = 140
 [menu]
 
   [[menu.main]]
-    identifier = "tools"
-    name = "工具"
-    url = "/tools/"
+    identifier = "cheatsheet"
+    name = "速查"
+    url = "/cheatsheet/"
     weight = 2
 
   [[menu.main]]
