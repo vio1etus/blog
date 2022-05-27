@@ -4,8 +4,6 @@ date: 2019-10-05 14:49:29
 comments: false
 ---
 
-[Python Regular Expression](/static/PyRegExpQuickReference.pdf)
-
 1. 常用的在线工具网站
    |名称|简介|网址|
    |:-|-|:--|
