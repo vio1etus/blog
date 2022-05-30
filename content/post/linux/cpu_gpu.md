@@ -4,6 +4,7 @@ comments: true
 toc: true
 tags:
 description: 服务器 docker 镜像，记录查看 Ubuntu 的 CPU 和 GPU 的相关信息的命令
+summary: 服务器 docker 镜像，记录查看 Ubuntu 的 CPU 和 GPU 的相关信息的命令
 categories:
     - linux
 date: 2022-05-30 08:50:25
