@@ -2,6 +2,7 @@
 title: 二次排序注入
 toc: true
 description: 本文通过 sqli-lab 24 来介绍二次排序注入。
+summary: 本文通过 sqli-lab 24 来介绍二次排序注入。
 categories:
     - websec
     - sql injection

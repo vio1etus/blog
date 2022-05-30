@@ -2,6 +2,7 @@
 title: webug之显错注入
 toc: true
 description: "通过 sql 显错注入,巩固加强 mysql 基础, 并熟悉常见的注入方式及流程."
+summary: "通过 sql 显错注入,巩固加强 mysql 基础, 并熟悉常见的注入方式及流程."
 categories:
     - websec
     - sql injection

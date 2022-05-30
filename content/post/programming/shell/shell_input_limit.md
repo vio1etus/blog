@@ -4,6 +4,7 @@ comments: true
 tags:
     - shell
 description: 学习并记录一下 shell 命令行输入的大小限制
+summary: 学习并记录一下 shell 命令行输入的大小限制
 categories:
     - programming
 date: 2020-07-23 19:11:25

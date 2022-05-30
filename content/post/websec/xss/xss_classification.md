@@ -5,6 +5,7 @@ toc: true
 tags:
     - XSS
 description: 简介介绍 XSS 的是哪种类型，DOM 型暂时还未弄明白，以后再说
+summary: 简介介绍 XSS 的是哪种类型，DOM 型暂时还未弄明白，以后再说
 categories:
     - websec
     - xss

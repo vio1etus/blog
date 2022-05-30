@@ -5,6 +5,7 @@ toc: true
 tags:
     - python
 description: Python 有一些模块或函数，只能在这里 root 权限下才能运行，但是，root 用户（sudo）运行，却报错 ModuleNotFoundError:No module named 'xxx'
+summary: Python 有一些模块或函数，只能在这里 root 权限下才能运行，但是，root 用户（sudo）运行，却报错 ModuleNotFoundError:No module named 'xxx'
 categories:
     - programming
 date: 2020-07-21 16:01:54

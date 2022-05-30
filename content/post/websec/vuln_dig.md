@@ -3,6 +3,7 @@ title: 漏洞挖掘之路
 comments: false
 toc: false
 description: 开启挖洞之路，未来路漫漫，不忘初心，砥砺前行，向着梦想进发。
+summary: 开启挖洞之路，未来路漫漫，不忘初心，砥砺前行，向着梦想进发。
 categories:
     - websec
 date: 2019-09-05 16:39:10

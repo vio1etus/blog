@@ -3,6 +3,7 @@ title: 爬虫基础
 comments: true
 toc: true
 description: 本文总结一些爬虫的预备知识，以便后续爬虫的学习
+summary: 本文总结一些爬虫的预备知识，以便后续爬虫的学习
 tags:
     - python
 categories:

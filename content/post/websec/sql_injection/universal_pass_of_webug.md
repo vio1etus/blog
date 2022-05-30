@@ -2,6 +2,7 @@
 title: webug之万能密码
 toc: true
 description: "开启靶场练习之旅,本文介绍通过小白看起来最牛的万能密码来迈进 sql 注入的大门."
+summary: "开启靶场练习之旅,本文介绍通过小白看起来最牛的万能密码来迈进 sql 注入的大门."
 categories:
     - websec
     - sql injection

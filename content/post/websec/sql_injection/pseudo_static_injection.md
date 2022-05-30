@@ -3,6 +3,7 @@ title: 伪静态静态注入
 comments: true
 toc: true
 description: 本文简要了解一下伪静态页面，并介绍伪静态静态注入
+summary: 本文简要了解一下伪静态页面，并介绍伪静态静态注入
 categories:
     - websec
     - sql injection

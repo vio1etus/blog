@@ -5,6 +5,7 @@ toc: true
 tags:
     - manjaro
 description: fcitx5 框架，pinyin 输入法、rime 输入法，肥猫的维基百万词库以及fcitx5-rime 配置
+summary: fcitx5 框架，pinyin 输入法、rime 输入法，肥猫的维基百万词库以及fcitx5-rime 配置
 categories:
     - linux
 date: 2020-08-07 20:11:25

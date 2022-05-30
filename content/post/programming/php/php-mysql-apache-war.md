@@ -3,6 +3,7 @@ title: WAMP 安装配置以及 war 包导入 Tomcat
 comments: true
 toc: true
 description: 本文记录自己搭建 WAMP 的过程以供参考借鉴，涉及Apache 2.4，PHP 7.3，PHP5.6，MySQL8.0
+summary: 本文记录自己搭建 WAMP 的过程以供参考借鉴，涉及Apache 2.4，PHP 7.3，PHP5.6，MySQL8.0
 tags:
     - php
 categories:

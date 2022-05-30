@@ -5,6 +5,7 @@ toc: true
 tags:
     - shell
 description: 本文主要介绍可以是实现多行输入的重定向的 Here document
+summary: 本文主要介绍可以是实现多行输入的重定向的 Here document
 categories:
     - programming
 date: 2020-07-13 23:11:25

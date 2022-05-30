@@ -5,6 +5,7 @@ toc: true
 tags:
     - chmod
 description: 本文主要涉及 linux 的文件权限、 chmod 命令设置文件和目录权限
+summary: 本文主要涉及 linux 的文件权限、 chmod 命令设置文件和目录权限
 categories:
     - linux
     - tools

@@ -5,6 +5,7 @@ toc: true
 tags:
     - python
 description: Python 单例设计模式
+summary: Python 单例设计模式
 categories:
     - programming
 date: 2020-03-22 22:16:58

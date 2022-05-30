@@ -8,6 +8,7 @@ tags:
     - ss
     - lsof
 description: 本文主要学习记录 netstat，ss， lsof 命令，通过它们确定端口等信息
+summary: 本文主要学习记录 netstat，ss， lsof 命令，通过它们确定端口等信息
 categories:
     - linux
     - tools

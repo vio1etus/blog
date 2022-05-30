@@ -3,6 +3,7 @@ title: linux 一些实用小命令
 comments: true
 toc: true
 description: 本文记录学习的一些 Linux 实用小命令
+summary: 本文记录学习的一些 Linux 实用小命令
 categories:
     - linux
     - tools

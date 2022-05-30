@@ -5,6 +5,7 @@ toc: true
 tags:
     - python
 description: 本文主要解释了 Python 的包安装路径以及如何查找修改 pip 默认包安装位置
+summary: 本文主要解释了 Python 的包安装路径以及如何查找修改 pip 默认包安装位置
 categories:
     - programming
 date: 2020-07-21 19:01:54

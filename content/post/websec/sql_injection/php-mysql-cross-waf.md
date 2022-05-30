@@ -2,6 +2,7 @@
 title: php+mysql 绕 WAF 基础
 toc: true
 description: 本文主要介绍php+mysql 平台下的基本绕过方式及其绕过的原理。
+summary: 本文主要介绍php+mysql 平台下的基本绕过方式及其绕过的原理。
 categories:
     - websec
     - sql injection

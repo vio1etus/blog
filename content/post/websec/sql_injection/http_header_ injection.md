@@ -2,6 +2,7 @@
 title: http头部注入
 toc: true
 description:
+summary:
     本文主要介绍 http 头部注入类型，并通过 sqli-lib 18,19,20，21 分别来介绍 User-Agent
     注入，referer注入，cookie 注入
 categories:

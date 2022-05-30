@@ -5,6 +5,7 @@ toc: true
 tags:
     - XSS
 description: 通过 DVWA 中的 几个安全等级的 XSS 来学习三种 XSS 及其探测、绕过方式
+summary: 通过 DVWA 中的 几个安全等级的 XSS 来学习三种 XSS 及其探测、绕过方式
 categories:
     - websec
     - xss

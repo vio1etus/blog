@@ -6,6 +6,7 @@ tags:
     - traceroute
     - network
 description: 本文主要学习记录 traceroute 及其 mtr 的学习使用。
+summary: 本文主要学习记录 traceroute 及其 mtr 的学习使用。
 categories:
     - linux
     - tools

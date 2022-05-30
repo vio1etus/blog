@@ -3,6 +3,7 @@ title: sqlmap 基础命令
 comments: true
 toc: true
 description: 本文记录常用的 Sqlmap 命令
+summary: 本文记录常用的 Sqlmap 命令
 categories:
     - websec
     - sql injection

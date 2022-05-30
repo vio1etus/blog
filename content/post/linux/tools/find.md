@@ -5,6 +5,7 @@ toc: true
 tags:
     - find
 description: find 命令学习与使用
+summary: find 命令学习与使用
 categories:
     - linux
 date: 2020-08-10 10:11:25

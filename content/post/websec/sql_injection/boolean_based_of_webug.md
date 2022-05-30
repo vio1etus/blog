@@ -2,6 +2,7 @@
 title: webug之布尔注入
 toc: true
 description: >-
+summary: >-
     本来想写关于 sqli-lib less 5 的笔记的，结果总感觉它不是那种很经典的布尔盲注的例子，还是 webug 这个比较恰当、正常。ps:然并软,
     webug 这个布尔注入, 也是虚晃一枪, 有显示位,故我采用的回显注入.
 categories:

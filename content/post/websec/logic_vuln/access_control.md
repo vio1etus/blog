@@ -3,6 +3,7 @@ title: 访问控制与越权
 comments: true
 toc: true
 description: 本文简要介绍业务逻辑漏洞及其挖掘姿势，并介绍授权验证绕过及密码找回等常见逻辑漏洞
+summary: 本文简要介绍业务逻辑漏洞及其挖掘姿势，并介绍授权验证绕过及密码找回等常见逻辑漏洞
 categories:
     - websec
     - logic_vuln

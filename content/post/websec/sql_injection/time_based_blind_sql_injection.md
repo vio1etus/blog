@@ -2,6 +2,7 @@
 title: 基于时间的盲注
 toc: true
 description: 本文使用 sqli less 5 进行基于时间盲注的讲解，介绍其原理，常用函数、payload、流程步骤等。
+summary: 本文使用 sqli less 5 进行基于时间盲注的讲解，介绍其原理，常用函数、payload、流程步骤等。
 categories:
     - websec
     - sql injection

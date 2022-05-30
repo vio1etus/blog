@@ -5,6 +5,7 @@ toc: true
 tags:
     - threat intelligence
 description: 本文通过总结自己在网上阅读的好文章对安全威胁情报进行一定的介绍（非原创）
+summary: 本文通过总结自己在网上阅读的好文章对安全威胁情报进行一定的介绍（非原创）
 categories:
     - security miscellaneous
 date: 2019-09-08 13:23:39

@@ -5,6 +5,7 @@ toc: true
 tags:
     - python
 description: 本文主要记录 Python 命名规范，以便自己在项目开发与合作过程中，写出规范 Python 的代码。
+summary: 本文主要记录 Python 命名规范，以便自己在项目开发与合作过程中，写出规范 Python 的代码。
 categories:
     - programming
 date: 2019-07-25 15:18:25

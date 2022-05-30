@@ -7,6 +7,7 @@ tags:
     - CMake
     - Make
 description: 在论文复现时，经常会遇到一些 C++ 的项目需要编译运行，因此这里对Make、MakeFile、CMake 等常见的编译安装进行基本的了解与学习。
+summary: 在论文复现时，经常会遇到一些 C++ 的项目需要编译运行，因此这里对Make、MakeFile、CMake 等常见的编译安装进行基本的了解与学习。
 categories:
     - programming
 date: 2022-05-20 15:03:58

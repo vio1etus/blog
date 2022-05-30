@@ -7,6 +7,7 @@ tags:
     - pipe
     - fd
 description: 本文主要介绍 Linux 下输入输出重定向以及设备文件，文件描述符
+summary: 本文主要介绍 Linux 下输入输出重定向以及设备文件，文件描述符
 categories:
     - linux
     - tools

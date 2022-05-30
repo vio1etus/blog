@@ -2,6 +2,7 @@
 title: 绕过注释过滤
 toc: true
 description: 本文通过 sqli-lab 23 来介绍如何绕过注释被过滤的情况
+summary: 本文通过 sqli-lab 23 来介绍如何绕过注释被过滤的情况
 categories:
     - websec
     - sql injection

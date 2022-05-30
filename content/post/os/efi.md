@@ -6,6 +6,7 @@ tags:
     - os
     - efi
 description: 本文主要介绍 EFI 的结构以及各个 efi 文件功能等理论知识，为后面双系统测试实践打下理论基础。
+summary: 本文主要介绍 EFI 的结构以及各个 efi 文件功能等理论知识，为后面双系统测试实践打下理论基础。
 categories:
     - os
 date: 2020-09-30 20:33:55

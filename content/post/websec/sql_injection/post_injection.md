@@ -2,6 +2,7 @@
 title: post 注入
 toc: true
 description: 本文使用通过 sqli-lib 的less 11 与 13 来讲解 post 注入。
+summary: 本文使用通过 sqli-lib 的less 11 与 13 来讲解 post 注入。
 categories:
     - websec
     - sql injection

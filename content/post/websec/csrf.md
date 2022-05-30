@@ -3,6 +3,7 @@ title: CSRF 漏洞
 comments: true
 toc: true
 description: 本文主要介绍并总结了 CSRF 的原理、危害、测试、利用及防御
+summary: 本文主要介绍并总结了 CSRF 的原理、危害、测试、利用及防御
 categories:
     - websec
 date: 2019-10-05 16:15:58

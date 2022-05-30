@@ -5,6 +5,7 @@ toc: true
 tags:
     - shell
 description: 本文主要涉及两个点:前、后台任务控制、避免挂断终端影响（尤其是远程 ssh 连接断开时），涉及命令：`&`，`nohup`，`screen` 以及 `^c, ^d, ^z` 快捷键以及原理。
+summary: 本文主要涉及两个点:前、后台任务控制、避免挂断终端影响（尤其是远程 ssh 连接断开时），涉及命令：`&`，`nohup`，`screen` 以及 `^c, ^d, ^z` 快捷键以及原理。
 categories:
     - programming
 date: 2020-07-13 23:11:25

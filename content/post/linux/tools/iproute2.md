@@ -6,6 +6,7 @@ tags:
     - iproute2
     - network
 description: 本文主要学习 iproute2 工具包中的 ip 工具使用。
+summary: 本文主要学习 iproute2 工具包中的 ip 工具使用。
 categories:
     - linux
     - tools

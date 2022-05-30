@@ -5,6 +5,7 @@ toc: true
 tags:
     - manjaro
 description: 本文主要记录 manjaro 系统的使用过程中遇到的一些问题或者进阶的配置
+summary: 本文主要记录 manjaro 系统的使用过程中遇到的一些问题或者进阶的配置
 categories:
     - linux
 date: 2020-07-24 10:11:25

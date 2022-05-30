@@ -4,6 +4,7 @@ toc: true
 tags:
     - poem
 description: 读到了诗人白桦的《船》，略有感触，写此文记录之。
+summary: 读到了诗人白桦的《船》，略有感触，写此文记录之。
 categories:
     - literature
 date: 2020-07-25 08:40:25

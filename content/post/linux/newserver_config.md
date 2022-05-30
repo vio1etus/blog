@@ -4,6 +4,7 @@ comments: true
 toc: true
 tags:
 description: 分配了实验室的服务器容器，记录一下配置流程。
+summary: 分配了实验室的服务器容器，记录一下配置流程。
 categories:
     - linux
 date: 2022-05-30 20:29:25

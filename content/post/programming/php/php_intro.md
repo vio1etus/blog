@@ -2,6 +2,7 @@
 title: 初识PHP
 toc: true
 description: 掌握 Web 服务端架构，清楚请求访问的具体流程，并为学习PHP搭建好环境。
+summary: 掌握 Web 服务端架构，清楚请求访问的具体流程，并为学习PHP搭建好环境。
 tags:
     - php
 categories:

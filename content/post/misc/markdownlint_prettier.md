@@ -4,6 +4,7 @@ comments: true
 tags:
     - vscode
 description: VSCode 写 Markdown 时，无序列表总是被 Prettier 格式化为 3 个空格，但是 Markdownlint 还波浪线标出 MD030 格式错误
+summary: VSCode 写 Markdown 时，无序列表总是被 Prettier 格式化为 3 个空格，但是 Markdownlint 还波浪线标出 MD030 格式错误
 categories:
     - misc
 date: 2022-05-21 16:06:29

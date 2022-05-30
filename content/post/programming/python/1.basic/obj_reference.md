@@ -5,6 +5,7 @@ toc: true
 tags:
     - python
 description: 本文通过介绍 Python 的内存管理、赋值与函数参数传递。对象可变性来深入解析：Python 的对象引用。
+summary: 本文通过介绍 Python 的内存管理、赋值与函数参数传递。对象可变性来深入解析：Python 的对象引用。
 categories:
     - programming
 date: 2020-03-21 10:39:54

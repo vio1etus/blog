@@ -6,6 +6,7 @@ tags:
     - fun
     - python
 description: 自己实现了 python 的 print 函数，仅供练习与玩耍。
+summary: 自己实现了 python 的 print 函数，仅供练习与玩耍。
 categories:
     - programming
 date: 2020-07-21 16:01:54

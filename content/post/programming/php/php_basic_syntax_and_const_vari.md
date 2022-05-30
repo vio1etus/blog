@@ -2,6 +2,7 @@
 title: PHP基本语法规范及常量与变量
 toc: true
 description: 本文主要介绍 PHP 的基本语法规范以及 PHP 中的常量与变量
+summary: 本文主要介绍 PHP 的基本语法规范以及 PHP 中的常量与变量
 tags:
     - php
 categories:

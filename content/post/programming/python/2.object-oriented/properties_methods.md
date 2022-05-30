@@ -5,6 +5,7 @@ toc: true
 tags:
     - python
 description: Python 类的结构
+summary: Python 类的结构
 categories:
     - programming
 date: 2020-03-10 22:18:24

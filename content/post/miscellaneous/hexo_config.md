@@ -55,31 +55,33 @@ hexo algolia
 
 ## vscode 添加 hexo yaml snippet
 
-1. 创建针对于 markdown 文件格式的 snippet
+1.  创建针对于 markdown 文件格式的 snippet
 
     `Ctrl+shift+p` 打开 vscode command palette，然后输入 snippet, 选择 `Preference: Configure User Snippets`并回车， 然后再输入 markdown 并回车，即可创建一个专门存放 markdown 格式文件 snippet 的 json。
 
-2. 将我提供的 snippet 复制到大括号中，然后保存
+2.  将我提供的 snippet 复制到大括号中，然后保存
 
-    ```json
-    "hexo yaml": {
-        "prefix": "yaml",
-        "body": [
-            "---\ntitle: $1",
-            "toc: true",
-            "tags:",
-            "   - $2",
-            "description: $3",
+        ```json
+        "hexo yaml": {
+            "prefix": "yaml",
+            "body": [
+                "---\ntitle: $1",
+                "toc: true",
+                "tags:",
+                "   - $2",
+                "description: $3",
+
+    summary: $3",
             "categories:",
             "   - $4",
             "date: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND",
-            "---\n"
-        ],
-        "description": "snippet fot hexo yaml"
+    "---\n"
+    ],
+    "description": "snippet fot hexo yaml"
     }
     ```
 
-3. 测试
+3.  测试
 
     在 markdown 的 `.md` 后缀文件中输入 `yaml`， 并按回车或者 Tab 键，即可自动替换为 snippet。
 

@@ -5,6 +5,7 @@ toc: true
 tags:
     - kill
 description: 本文主要介绍 Linux 下的 kill 命令
+summary: 本文主要介绍 Linux 下的 kill 命令
 categories:
     - linux
     - tools

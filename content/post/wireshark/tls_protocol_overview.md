@@ -4,6 +4,7 @@ toc: true
 tags:
     - 网络协议
 description: 本文介绍了 TLS1.2 协议，重点讲述了其握手协议
+summary: 本文介绍了 TLS1.2 协议，重点讲述了其握手协议
 categories:
     - wireshark
 date: 2019-07-09 19:25:43

@@ -4,6 +4,7 @@ comments: true
 toc: true
 tags:
 description: xargs 命令学习与使用
+summary: xargs 命令学习与使用
 categories:
     - linux
     - tools

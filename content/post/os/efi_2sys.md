@@ -6,6 +6,7 @@ tags:
     - os
     - efi
 description: 本文通过双系统来进一步学习 efi 结构以及 UEFI 引导过程
+summary: 本文通过双系统来进一步学习 efi 结构以及 UEFI 引导过程
 categories:
     - os
 date: 2020-09-30 20:33:55

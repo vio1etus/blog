@@ -2,6 +2,7 @@
 title: sql注入介绍
 toc: true
 description: "以万能密码引入, 简要介绍 sql 注入的条件,原理,危害"
+summary: "以万能密码引入, 简要介绍 sql 注入的条件,原理,危害"
 categories:
     - websec
     - sql injection

@@ -6,6 +6,7 @@ tags:
     - ping
     - network
 description: 本文主要学习记录 ping 命令及其升级版 fping 命令。
+summary: 本文主要学习记录 ping 命令及其升级版 fping 命令。
 categories:
     - linux
     - tools

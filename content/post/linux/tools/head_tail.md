@@ -6,6 +6,7 @@ tags:
     - head
     - tail
 description: 本文主要介绍快捷查看文件首部或者尾部指定行数的命令：head 和 tail 命令
+summary: 本文主要介绍快捷查看文件首部或者尾部指定行数的命令：head 和 tail 命令
 categories:
     - linux
     - tools

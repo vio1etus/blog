@@ -3,6 +3,7 @@ title: 命令执行入门篇
 comments: true
 toc: true
 description: 本文作为命令执行的入门篇，简单介绍命令执行以及其分类和自动化工具
+summary: 本文作为命令执行的入门篇，简单介绍命令执行以及其分类和自动化工具
 categories:
     - websec
     - cmd_execution

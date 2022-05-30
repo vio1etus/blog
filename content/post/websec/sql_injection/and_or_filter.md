@@ -2,6 +2,7 @@
 title: 绕过and与or过滤
 toc: true
 description: 本文通过 sqli-lab 25及25a来学如何应对 and 与 or 的过滤。
+summary: 本文通过 sqli-lab 25及25a来学如何应对 and 与 or 的过滤。
 categories:
     - websec
     - sql injection

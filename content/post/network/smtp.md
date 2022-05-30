@@ -2,6 +2,7 @@
 title: SMTP 协议
 toc: true
 description: 本文主要介绍 SMTP 协议，并通过使用命令行进行模拟以及实际的邮件发送来熟悉 SMTP 协议。
+summary: 本文主要介绍 SMTP 协议，并通过使用命令行进行模拟以及实际的邮件发送来熟悉 SMTP 协议。
 categories:
     - network
 tags:

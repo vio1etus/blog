@@ -5,6 +5,7 @@ toc: true
 tags:
     - python
 description: 本文主要介绍 Python 的 with 语句来更好的操作文件
+summary: 本文主要介绍 Python 的 with 语句来更好的操作文件
 categories:
     - programming
 date: 2020-06-22 14:26:54

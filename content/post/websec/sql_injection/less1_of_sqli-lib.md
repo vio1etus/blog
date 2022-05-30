@@ -2,6 +2,7 @@
 title: sqli_lib之less1
 toc: true
 description: "和 webug 之显错注入一样, 这也是一个 sql 显错注入. 作为最基本的 sql 注入入门, 你需要通过显错注入学到注入的基本思想、步骤以及技术基础。"
+summary: "和 webug 之显错注入一样, 这也是一个 sql 显错注入. 作为最基本的 sql 注入入门, 你需要通过显错注入学到注入的基本思想、步骤以及技术基础。"
 categories:
     - websec
     - sql injection

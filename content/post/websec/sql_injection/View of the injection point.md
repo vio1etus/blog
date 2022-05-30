@@ -2,6 +2,7 @@
 title: 对检测注入点的小想法
 toc: true
 description: 本文 通过 sqli-lab less 2、3、4 来谈一下，自己对于检测注入点的看法。
+summary: 本文 通过 sqli-lab less 2、3、4 来谈一下，自己对于检测注入点的看法。
 categories:
     - websec
     - sql injection

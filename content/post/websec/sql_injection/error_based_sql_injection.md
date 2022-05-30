@@ -2,6 +2,7 @@
 title: 基于报错的盲注
 toc: true
 description: 本文通过 sqli-lib lesson 5 来总结归纳基于报错的盲注。
+summary: 本文通过 sqli-lib lesson 5 来总结归纳基于报错的盲注。
 categories:
     - websec
     - sql injection

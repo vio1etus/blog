@@ -7,6 +7,7 @@ tags:
     - reproduction
     - C++
 description: 记录两篇 CCS 2021 关于 zero knowledge proof 的代码复现
+summary: 记录两篇 CCS 2021 关于 zero knowledge proof 的代码复现
 categories:
     - acedemic
 date: 2022-05-20 15:03:58

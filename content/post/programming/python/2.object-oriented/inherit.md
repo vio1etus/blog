@@ -5,6 +5,7 @@ toc: true
 tags:
     - python
 description: 本文主要记录 Python 中的继承
+summary: 本文主要记录 Python 中的继承
 categories:
     - programming
 date: 2020-03-22 22:12:48

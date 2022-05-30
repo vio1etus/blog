@@ -6,6 +6,7 @@ tags:
     - Python
     - Tools
 description: 通过 Python 调用免费限额的百度 OCR 以及 tesserocr 来进行屏幕文字识别，满足我们日常需求。本文完美适用于 Manjaro Linux， 其他发行版需要修改第一部分使用的屏幕截图工具以及自行寻找脚本所用工具的安装教程。
+summary: 通过 Python 调用免费限额的百度 OCR 以及 tesserocr 来进行屏幕文字识别，满足我们日常需求。本文完美适用于 Manjaro Linux， 其他发行版需要修改第一部分使用的屏幕截图工具以及自行寻找脚本所用工具的安装教程。
 categories:
     - utilities
 date: 2020-07-13 23:11:25

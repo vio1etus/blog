@@ -5,6 +5,7 @@ toc: true
 tags:
     - python
 description: Python 对象的 hashable 和 unhashable
+summary: Python 对象的 hashable 和 unhashable
 categories:
     - programming
     - intermediate

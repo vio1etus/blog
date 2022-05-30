@@ -3,6 +3,7 @@ title: 文件上传
 comments: true
 toc: true
 description: 本文主要使用 upload-labs 靶场，并以 Apache、PHP组合来学习以及总结文件上传的类型。不期望将每个知识点都写到，但求将大类整理好。
+summary: 本文主要使用 upload-labs 靶场，并以 Apache、PHP组合来学习以及总结文件上传的类型。不期望将每个知识点都写到，但求将大类整理好。
 categories:
     - websec
     - file_upload

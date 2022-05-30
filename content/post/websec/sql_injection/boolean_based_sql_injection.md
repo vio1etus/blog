@@ -2,6 +2,7 @@
 title: 布尔盲注
 toc: true
 description: 简要介绍布尔盲注的流程，并介绍常用的函数以及注入流程中常用的 payload。
+summary: 简要介绍布尔盲注的流程，并介绍常用的函数以及注入流程中常用的 payload。
 categories:
     - websec
     - sql injection

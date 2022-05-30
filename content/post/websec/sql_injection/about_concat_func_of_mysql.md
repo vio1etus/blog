@@ -4,6 +4,7 @@ toc: true
 tags:
     - mysql
 description: mysql 中的 concat、concat_ws、group_concat 函数详解
+summary: mysql 中的 concat、concat_ws、group_concat 函数详解
 categories:
     - websec
     - sql injection

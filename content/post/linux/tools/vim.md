@@ -5,6 +5,7 @@ toc: true
 tags:
     - vim
 description: 入门 vim， 并掌握 vim 常用操作，并不涉及寄存器等高级技巧。
+summary: 入门 vim， 并掌握 vim 常用操作，并不涉及寄存器等高级技巧。
 categories:
     - linux
     - tools

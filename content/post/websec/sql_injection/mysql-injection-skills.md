@@ -2,6 +2,7 @@
 title: mysql注入小技巧
 toc: true
 description: 本文不成体系的介绍一些 sql 注入的小的好玩的点，希望对你有用。
+summary: 本文不成体系的介绍一些 sql 注入的小的好玩的点，希望对你有用。
 categories:
     - websec
     - sql injection

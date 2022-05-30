@@ -6,6 +6,7 @@ tags:
     - ml
     - cuda
 description: 实验室服务器使用 docker 做虚拟化，在分得的 docker 镜像里面安装 cuda 便于跑深度学习
+summary: 实验室服务器使用 docker 做虚拟化，在分得的 docker 镜像里面安装 cuda 便于跑深度学习
 categories:
     - linux
 date: 2022-05-29 14:48:25

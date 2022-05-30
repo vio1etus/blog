@@ -2,6 +2,7 @@
 title: 对检测注入点的小想法
 toc: true
 description: 本文 通过 sqli-lab less 2、3、4 来谈一下，自己对于检测注入点的看法。
+summary: 本文 通过 sqli-lab less 2、3、4 来谈一下，自己对于检测注入点的看法。
 categories:
     - websec
     - sql injection
@@ -23,6 +24,7 @@ tags:
 为什么很多人都说先用单引号判断注入点呢，我认为是因为 id=1 、id= '1' 、id=('1')的开发语句用的比较多，通过单引号以及报错可以明确地区分它们。
 
 比如三种报错：
+
 ```
 ' LIMIT 0,1
 '1'' LIMIT 0,1

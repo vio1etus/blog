@@ -4,6 +4,7 @@ comments: true
 toc: true
 tags:
 description: 本机与服务器 scp 复制
+summary: 本机与服务器 scp 复制
 categories:
     - linux
 date: 2022-05-29 14:48:25

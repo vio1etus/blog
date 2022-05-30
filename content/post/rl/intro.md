@@ -4,6 +4,7 @@ comments: true
 toc: true
 tags:
 description: 本文学习 RL 的 Policy-based Method
+summary: 本文学习 RL 的 Policy-based Method
 categories:
     - rl
 date: 2020-12-17 16:35:39

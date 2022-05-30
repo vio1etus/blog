@@ -2,6 +2,7 @@
 title: webug之post注入
 toc: true
 description: 本文通过介绍 webug 靶场的 post 注入来更深刻的了解常用注入语句的原理。
+summary: 本文通过介绍 webug 靶场的 post 注入来更深刻的了解常用注入语句的原理。
 categories:
     - websec
     - sql injection

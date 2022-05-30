@@ -5,6 +5,7 @@ toc: true
 tags:
     - python
 description: 如何在你的电脑上正确地安装 Python 的包，sudo pip？pip --user, 还是直接使用你的 Linux 自带的包管理器
+summary: 如何在你的电脑上正确地安装 Python 的包，sudo pip？pip --user, 还是直接使用你的 Linux 自带的包管理器
 categories:
     - programming
 date: 2020-10-10 14:33:54

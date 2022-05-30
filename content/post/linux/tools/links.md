@@ -6,6 +6,7 @@ tags:
     - hardlink
     - softlink
 description: 本文主要记录学习硬链接和符号链接（软链接）
+summary: 本文主要记录学习硬链接和符号链接（软链接）
 categories:
     - linux
     - tools

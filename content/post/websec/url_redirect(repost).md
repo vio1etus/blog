@@ -3,6 +3,7 @@ title: URL 重定向（转载）
 comments: true
 toc: true
 description: 本文介绍并总结 URL 漏洞及其绕过方法
+summary: 本文介绍并总结 URL 漏洞及其绕过方法
 categories:
     - websec
 date: 2019-11-23 15:46:19
