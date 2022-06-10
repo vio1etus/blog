@@ -14,6 +14,8 @@ date: 2022-05-29 14:48:25
 
 上传本地文件到服务器:`scp /path/local_filename username@server_ip:/path`
 
+如需指定 ssh 端口，在 scp 后跟`-P` 选项，`scp -P123 commands`
+
 如果出现服务器拒绝，可能是服务器的文件权限问题; 如果出现本地拒绝，可能是本地用户以及文件权限问题。
 
 如果出现 `not a regular file`， 源服务器上不存在该文件或者该文件不是正常文件,出错原因：
