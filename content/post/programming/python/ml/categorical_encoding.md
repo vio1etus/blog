@@ -1,9 +1,18 @@
-# Categorical encoding: Label-Encoding and One-Hot-Encoder
+---
+title: Categorical encoding: Label-Encoding and One-Hot-Encoder
+comments: true
+toc: true
+tags:
+    - ml
+    - python
+description: 本文主要学习 Label-encoding and One-Hot encoding
+summary: 本文主要学习 Label-encoding and One-Hot encoding
+categories:
+    - programming
+date: 2022-05-19 16:33:29
+---
 
-在机器学习或大数据中，数据集可能包含文本或类别值(categorical values), 基本上是非数值值 (non-numerical values), 例如：颜色：red, orange, blue, white 等、饮食：breakfast, lunch, snacks, dinner, tea。
-
-一些算法，比如 CATBOAST，decision-trees 可以很好地处理类别值（categorical values），但大多
-数算法更偏向使用数值，它们在数值输入时更容易获得 state-of-the-art results。因此我们需要将文本/类别数据转换为数值数据，并仍然使算法/模型从其中习得含义。
+在机器学习或大数据中，数据集可能包含文本或类别值(categorical values), 基本上是非数值值 (non-numerical values), 例如：颜色：red, orange, blue, white 等、饮食：breakfast, lunch, snacks, dinner, tea。一些算法，比如 CATBOAST，decision-trees 可以很好地处理类别值（categorical values），但大多数算法更偏向使用数值，它们在数值输入时更容易获得 state-of-the-art results。因此我们需要将文本/类别数据转换为数值数据，并仍然使算法/模型从其中习得含义。
 
 有许多将分类值转换为数值的方法，每种方法都有其优缺点。本文主要介绍两种主流的编码方案: One-Hot-Encoding and Label-Encoding. 这两种编码都可用 pandas 或 SciKit-learn 实现。
 
