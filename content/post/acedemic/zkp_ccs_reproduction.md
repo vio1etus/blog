@@ -31,8 +31,15 @@ Ubuntu 18.04 VMWare 虚拟机
     由于该仓库使用了 submodule，但是其由于该仓库 .gitmodules 使用 SSH 协议指定的仓库位置，但我们显然没有被授权过，因此没有权限下载 submodules。解决办法：
 
     1. (推荐) 先 git clone 仓库，然后把 .gitmodules 的链接改成 HTTPS 的，然后递归初始化并更新 submodules
-       推荐：递归初始化，并更新 `git submodule update --init --recursive`
+       推荐：递归初始化，并更新: `git submodule update --init --recursive`
+
         > 不推荐：`git submodule update` 只更新子项目代码，在一些旧版本没有初始化的 submodules 不会被更新
+
+        ```shell
+        git clone https://github.com/TAMUCrypto/zkCNN.git
+        git submodule update --init --recursive
+        ```
+
     2. (凑活) 只使用 git clone，直接找 submodules 的仓库门，自行下载到指定的嵌套的 submodules 文件夹位置
 
 2. 安装缺少的依赖
