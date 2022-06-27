@@ -1,5 +1,5 @@
 ---
-title: Categorical encoding: Label-Encoding and One-Hot-Encoder
+title: Categorical encoding:Label-Encoding and One-Hot-Encoder
 comments: true
 toc: true
 tags:
