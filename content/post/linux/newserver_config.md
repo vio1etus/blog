@@ -14,20 +14,22 @@ date: 2022-05-30 20:29:25
 
 1. 查看自己发行版与版本 `lsb_release -a`
 2. 修改密码 `sudo passwd user(user 是对应的用户名)`
-3. 更新系统
+3. 换源
+    注意：在下拉菜单选择对应的 Ubuntu 版本
+    [ubuntu | 镜像站使用帮助 | 清华大学开源软件镜像站 | Tsinghua Open Source Mirror](https://mirrors.tuna.tsinghua.edu.cn/help/ubuntu/)
+
+4. 更新系统
 
     ```shell
     sudo apt-get update
     sudo apt-get upgrade
     ```
 
-4. 安装 `git wget curl tmux`等
+5. 安装 `git wget curl tmux`等
 
     ```shell
     sudo apt-get install vim git wget curl tmux zip
     ```
-
-5. 换源
 
 6. 改 host 便于上 github
 
@@ -40,6 +42,10 @@ date: 2022-05-30 20:29:25
     ```
 
 7. 配置 git 连接 github
+
+> 8. 如果虚拟机需要安装 vmtool
+    注意：先安装好Ubuntu虚拟机，再安装 vmtool，ubuntu 安装过程中会对 iso CD-ROM 进行锁定
+    [2020最新版VMware安装Ubuntu20.04教程(巨细)！ - 知乎](https://zhuanlan.zhihu.com/p/141033713)
 
 ## 常用工具
 

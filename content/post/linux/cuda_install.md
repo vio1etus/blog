@@ -70,7 +70,7 @@ sudo apt-get install gcc g++ freeglut3-dev build-essential libx11-dev libxmu-dev
 **安装前取消勾选 driver（移动光标到该位置，回车）**，从而实现只安装 cuda 不安装 nvidia driver
 ![20220530194544](https://blog-1259556217.cos.ap-chengdu.myqcloud.com/image/20220530194544.png)
 
-设置 cuda 环境变量,注意如果使用 zsh，则改成 `~/.bashrc`
+设置 cuda 环境变量,注意如果使用 zsh，则改成 `~/.zshrc`
 
 ```
 echo 'export PATH=/usr/local/cuda-11.3/bin:$PATH' >> ~/.bashrc

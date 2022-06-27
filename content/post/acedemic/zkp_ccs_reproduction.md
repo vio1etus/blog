@@ -63,6 +63,13 @@ Ubuntu 18.04 VMWare 虚拟机
     ./demo_lenet.sh
     ```
 
+### 调试
+
+CMake + VSCode 调试
+配置 CMake 选择 zkCNN 主目录下的 CMakeLists.txt
+先 build
+配置 CMake:build Target 为想要运行的可执行文件 demo_lenet_run
+
 ## ZKDT
 
 [TAMUCrypto/ZKDT_release](https://github.com/TAMUCrypto/ZKDT_release)，直接 git clone 即可
@@ -72,6 +79,7 @@ Ubuntu 18.04 VMWare 虚拟机
     ```shell
     sudo apt-get install -y libprocps-dev # libprocps
     sudo apt-get install libssl-dev # libcrypto
+    sudo apt-get install pkg-config
     ```
 
     针对报错：
@@ -89,6 +97,7 @@ Ubuntu 18.04 VMWare 虚拟机
     ```shell
     cd ZKDT
     mkdir build && cd build && cmake ..
+    make
     ```
 
 3. 运行
