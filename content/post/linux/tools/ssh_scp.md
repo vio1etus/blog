@@ -27,6 +27,7 @@ git push -f master master # 强制推送本地master到远程master
 1. ssh 访问 github 超时
 
 `ssh: connect to host Build software better, together port 22: Connection timed out` 在 fork 了别人的仓库，clone 到本地修改之后，push 不上去了，本来以为网络或者代理问题，但搞了半天都不行，最后解决了：
+方法：Switching remote URLs from SSH to HTTPS，从 SSH 协议修改成了 HTTPS 协议
 
 [Managing remote repositories - GitHub Docs](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories)
 
