@@ -7,7 +7,7 @@ description: Don't trust browser， backup your important files.
 summary: Don't trust browser， backup your important files.
 categories:
     - misc
-date: 2022-07-2 23:16:29
+date: 2022-07-02 23:16:29
 ---
 
 最近更新 Windows 11 尝鲜，更新前特地对 Edge 浏览器进行了同步，然而 Favorite 还是丢了，垃圾 Edge 浏览器，Windows 同步都做不好，别说跨平台了，也就 Windows 上用用。但是又习惯了 Edge 的侧边栏和 collection，所以注意时常备份这两个文件。

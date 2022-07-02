@@ -7,7 +7,7 @@ description: Some tips for Clash usage
 summary: Some tips for Clash usage
 categories:
     - misc
-date: 2022-07-2 22:36:29
+date: 2022-07-02 22:36:29
 ---
 
 ## 常用选项
